@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5741874040945997830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8457492479711487505}
+  - component: {fileID: 667908226538009752}
+  - component: {fileID: 4966629187804903756}
+  m_Layer: 0
+  m_Name: PinballTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8457492479711487505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741874040945997830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &667908226538009752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741874040945997830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f618286a93bbbf48e3305b778c8a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tableWidth: 10
+  tableHeight: 15
+  wallHeight: 2
+  wallThickness: 0.5
+  tableMaterial: {fileID: 2100000, guid: 226fe15b5be83db1ba19bc6fd3e83c3b, type: 2}
+  wallMaterial: {fileID: 2100000, guid: bcc859df7d28623a48cc4294de385d43, type: 2}
+  bumperMaterial: {fileID: 2100000, guid: 542e278b1767bc14293c8b6e2ba3e191, type: 2}
+  targetMaterial: {fileID: 2100000, guid: 9a8da8fea02ca9a2ba7a8bc8dd9b8af7, type: 2}
+  rampMaterial: {fileID: 2100000, guid: f4e382efc6b26a9bfb90d7a3b1382ffb, type: 2}
+  bumperPrefab: {fileID: 1653972465846160407, guid: 9bf017346b2528f1d89ac5c2e3ad6f20, type: 3}
+  targetPrefab: {fileID: 8116157925835428439, guid: ae4c3fcb5c3e35d8994b86c574818c18, type: 3}
+  spinnerPrefab: {fileID: 1406971822469354970, guid: 2ea23fe0949021660b0cc66425a8d56e, type: 3}
+  ballPrefab: {fileID: 8825085772570277853, guid: 980e4977580f9955ca9f7ee594183104, type: 3}
+  flipperPrefab: {fileID: 4942915956157870502, guid: 4ca4e0cc78a88eceea2f4386f5676a2d, type: 3}
+  bumperCount: 2
+  targetCount: 10
+  spinnerCount: 3
+--- !u!65 &4966629187804903756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5741874040945997830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
